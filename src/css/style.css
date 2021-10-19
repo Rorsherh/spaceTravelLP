@@ -1,0 +1,21 @@
+html {
+  font-size: 100px;
+}
+
+.main-header {
+  background: green;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+html p {
+  color: green;
+  border: 1px;
+}
+
+html a {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */

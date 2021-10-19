@@ -1,0 +1,12 @@
+@import "sections/_global-style.scss";
+@import "sections/_main-header.scss";
+html {
+  box-sizing: border-box;
+  p {
+    color: green;
+    border: 1px;
+  }
+  a {
+    display: block;
+  }
+}
