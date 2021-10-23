@@ -1,21 +1,21 @@
 html {
-  font-size: 100px;
-}
+  box-sizing: border-box; }
 
-.main-header {
-  background: green;
-}
+*,
+*::before,
+*::after {
+  box-sizing: inherit; }
 
-html {
-  box-sizing: border-box;
-}
+body {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2c2b2b; }
 
-html p {
-  color: green;
-  border: 1px;
-}
-
-html a {
-  display: block;
-}
-/*# sourceMappingURL=style.css.map */
+.center-box {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+  outline: 1px solid orange; }

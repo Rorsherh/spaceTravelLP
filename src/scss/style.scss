@@ -1,12 +1,19 @@
-@import "sections/_global-style.scss";
-@import "sections/_main-header.scss";
 html {
   box-sizing: border-box;
-  p {
-    color: green;
-    border: 1px;
-  }
-  a {
-    display: block;
-  }
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Oswald", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  color: #2c2b2b;
+}
+@import "sections/main-header";
+@import "sections/center-box.scss";
