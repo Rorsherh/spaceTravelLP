@@ -8,8 +8,7 @@
 
 @font-face {
   font-family: "sf-pro-display";
-  src: local("☺"), url("../fonts/SF-Pro-Display-Bold.woff2") format("woff2"),
-    url("../fonts/SF-Pro-Display-Bold.woff") format("woff");
+  src: url("../fonts/SF-Pro-Display-Bold.woff") format("woff");
   font-style: normal;
   font-weight: bold;
   font-display: swap;
