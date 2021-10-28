@@ -1,0 +1,38 @@
+.to-book {
+  background: url("../img/to-book-bg.jpg") center center/cover no-repeat;
+  &__center-box {
+    padding-top: 100px;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  &__title {
+    flex: 0 1 50%;
+  }
+
+  &__info {
+    flex: 0 1 50%;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+  }
+
+  &__text {
+    flex: 0 1 165px;
+    margin: 10px 15px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .to-book__center-box {
+    display: block;
+    padding-top: 50px;
+  }
+  .to-book__title {
+    margin-bottom: 30px;
+  }
+  .to-book__info {
+    display: block;
+  }
+}
