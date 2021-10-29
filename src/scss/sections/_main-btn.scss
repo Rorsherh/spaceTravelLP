@@ -8,4 +8,8 @@
   border: 1px solid #ffffff;
   text-align: center;
   padding: 16.5px 15px;
+  transition: color 0.4s;
+  &:hover {
+    color: #cb0e0e;
+  }
 }
