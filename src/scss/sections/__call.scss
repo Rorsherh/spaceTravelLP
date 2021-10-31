@@ -1,0 +1,76 @@
+.call {
+  background-color: #010203;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+  &__center-box {
+    display: flex;
+    padding-top: 165px;
+  }
+
+  &__title {
+    margin-bottom: 45px;
+  }
+
+  &__text {
+    max-width: 500px;
+    margin: 0;
+  }
+
+  &__contact {
+    flex: 0 1 600px;
+    padding-right: 25px;
+  }
+  &__guarantee {
+    flex: 0 1 600px;
+  }
+
+  &__form {
+    padding-top: 70px;
+  }
+
+  &__input {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 27px;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    padding: 20px 10px;
+    display: block;
+    background: none;
+    color: #ffffff;
+    &::placeholder {
+      font-size: 14px;
+      line-height: 17px;
+      color: #ffffff;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  &__form-btn {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 65px;
+  }
+
+  &__img {
+    padding-top: 0px;
+    text-align: right;
+    img {
+      width: 80%;
+      max-width: 396px;
+      height: auto;
+    }
+  }
+}
+
+@media (max-width: 850px) {
+  .call__center-box {
+    padding-top: 80px;
+    flex-wrap: wrap;
+  }
+  .call__contact {
+    margin-bottom: 50px;
+  }
+}
