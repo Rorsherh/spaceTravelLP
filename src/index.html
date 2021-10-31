@@ -5,6 +5,8 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="css/style.css">
 	<title>Космический туризм</title>
 </head>
@@ -400,9 +402,50 @@
 				</div>
 			</div>
 		</section>
+
+		<section class="galery">
+			<div class="center-box galery__center-box">
+				<h2 class="title galery__title">
+					Галерея
+				</h2>
+				<div class="galery__container">
+					<!-- Slider main container -->
+					<div class="galery__slider swiper">
+						<!-- Additional required wrapper -->
+						<div class="swiper-wrapper">
+							<!-- Slides -->
+							<div class="swiper-slide">
+								<div class="galery__slide-box">
+									<img src="img/galery-img.jpg" alt="">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="galery__slide-box">
+									<img src="img/galery-img.jpg" alt="">
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="galery__slide-box">
+									<img src="img/galery-img.jpg" alt="">
+								</div>
+							</div>
+						</div>
+
+						<!-- If we need navigation buttons -->
+						<div class="swiper-button-prev"></div>
+						<div class="swiper-button-next"></div>
+					</div>
+				</div>
+
+				<p class="galery__note">
+					Ты знаешь о Космическом законе – представь себе то, что ты хочешь, и оно войдет в твою жизнь.
+				</p>
+			</div>
+		</section>
 	</div>
 
-
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<script src="js/galery.js"></script>
 	<script src="js/burger-menu.js"></script>
 </body>
 
